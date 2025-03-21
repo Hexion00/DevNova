@@ -132,13 +132,20 @@ $margin-bottom: 20px;
 
 .header0_1 {
   width: $container-width;
-  height: auto;
   background-image: url('../img/logo_31.jpg');
+  height: auto;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  flex-direction: column;
+  justify-content:center; 
+  align-items: center;
+  box-sizing: border-box; 
   color: white;
 }
+
+
+
 
 .sec_header_7 {
   width: 100%;
@@ -497,7 +504,10 @@ footer {
 
 
 /*---MEDIA QUIERI---*/
-@media (max-width: 1000px) { /* Tablet e Smartphone grandi (max-width: 1024px) */
+@media (max-width: 1024px) { /* Tablet e Smartphone grandi (max-width: 1024px) */
+
+ 
+
 
 
   /*---Menu hamburger*/
