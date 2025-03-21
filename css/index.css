@@ -44,7 +44,7 @@ hr {
 .header_1 {
   display: flex;
   width: 100%;
-  background-image: url("../img/logo_31.jpg");
+  background-image: url("../img/logo_31.webp");
   height: 100vh;
   background-size: cover;
   background-attachment: fixed;
@@ -149,8 +149,7 @@ hr {
 /*=======================================CHI SONO==============================================*/
 .header0_1 {
   width: 100%;
-  background-image: url("../img/logo_31.jpg");
-  height: auto;
+  background-image: url("../img/logo_31.webp");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -509,7 +508,6 @@ footer {
   }
   /*---CHI SONO---*/
   .con_header_7_0 {
-    padding: 10px;
     margin: 0px;
   }
   /*---CONTATTI---*/
@@ -605,11 +603,6 @@ footer {
   .hamburger_active div:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
   }
-  /*---CHI SONO---*/
-  .con_header_7_0 {
-    padding: 10px;
-    margin: 0px;
-  }
   /*---CONTATTI---*/
   .container {
     width: 150px;
@@ -654,11 +647,6 @@ footer {
     width: 40px;
     height: 5px;
   }
-  /*---CHI SONO---*/
-  .con_header_7_0 {
-    padding: 10px;
-    margin: 0px;
-  }
   /*---CONTATTI---*/
   .container {
     width: 80px;
@@ -680,11 +668,6 @@ footer {
   .hamburger div {
     width: 30px;
     height: 5px;
-  }
-  /*---CHI SONO---*/
-  .con_header_7_0 {
-    padding: 10px;
-    margin: 0px;
   }
   /*---CONTATTI---*/
   .container {
