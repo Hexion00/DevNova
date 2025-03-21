@@ -43,7 +43,7 @@ hr {
 .header_1 {
   display: flex;
   width: 100%;
-  background-image: url("../img/img_6.jpg");
+  background-image: url("../img/logo_31.jpg");
   height: 100vh;
   background-size: cover;
   background-attachment: fixed;
@@ -201,7 +201,7 @@ hr {
 /*=======================================CHI SONO==============================================*/
 .header0_1 {
   width: 100%;
-  background-image: url("../img/img_6.jpg");
+  background-image: url("../img/logo_31.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
