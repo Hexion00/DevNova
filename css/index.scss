@@ -100,8 +100,6 @@ $margin-bottom: 20px;
   }
 }
 
-
-
 /* Section principale */
 .section_1 {
   background-color: rgba(0, 0, 0, 0.5); 
@@ -130,85 +128,15 @@ $margin-bottom: 20px;
   font-weight: 600;
 }
 
-
-/* Responsive */
-@media (max-width: 768px) {
-
-  .hamburger {
-    display: flex;
-  }
-
-  .container_sec {
-    padding: 0px;
-  }
-
-  .section_1 {
-    padding: 20px;
-    margin-top: 480px;
-  }
-
-  #h1_sec{
-    font-size: 30px;
-}
-
-#h2_sec{
-  font-size: 25px;
-}
-
-#p_sec{
-  font-size: 17px;
-}
-
-/*menu hamburger*/
-.menu {
-  position: fixed;
-  top: 0;
-  right: -100%;
-  width: 250px;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.9);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: right 0.3s ease-in-out;
-}
-
-.menu ul {
-  flex-direction: column;
-  padding: 0;
-}
-
-.menu_active {
-  right: 0; 
-}
-
-/* Animazione icona hamburger */
-.hamburger_active div:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-.hamburger_active div:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger_active div:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
-}
-}
-
 /*=======================================CHI SONO==============================================*/
 
 .header0_1 {
   width: $container-width;
+  height: auto;
   background-image: url('../img/logo_31.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  flex-direction: column;
-  justify-content: center; 
-  align-items: center;
-  box-sizing: border-box; 
   color: white;
 }
 
@@ -343,41 +271,7 @@ $margin-bottom: 20px;
 }
 
 
-/*---MEDIA QUIERI---*/
 
-@media (max-width: 1000px) { /* Tablet e Smartphone grandi (max-width: 1024px) */
-  .con_header_7_0 {
-    padding: 10px; 
-    margin: 0px;
-  }
-}
-
-
-@media (max-width: 768px) {/* Tablet piccoli e Smartphone grandi (max-width: 768px) */
-
-  .con_header_7_0 {
-    padding: 10px; 
-    margin: 0px;
-  }
-}
-
-
-@media (max-width: 480px) { /* Smartphone medi e piccoli (max-width: 480px) */
-
-  .con_header_7_0 {
-    padding: 10px; 
-    margin: 0px;
-  }
-}
-
-
-@media (max-width: 375px) { /* Smartphone molto piccoli (max-width: 375px) */
-
-  .con_header_7_0 {
-    padding: 10px; 
-    margin: 0px;
-  }
-}
 
 /*=========================================progetti==============================================*/
 .section_12{
@@ -444,27 +338,7 @@ $margin-bottom: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9); 
 }
 
-/*Smartphone*/
-@media (max-width: 767px) {
-  .project {
-    width: 110px;
-    height: 80px;
-    margin: 20px 5px;
-  }
 
-  #h2_76{
-    font-size: 30px;
-  }
-
-  #a_145{
-    font-size: 20px;
-  }
-  
-  #a_146{
-    font-size: 20px;
-  }
-
-}
 
 /*==================================================CSS contatti=========================================*/
 
@@ -591,93 +465,7 @@ video {
   color: white;
 }
 
-/*---MEDIA QUIERI---*/
-@media (max-width: 1000px) { /* Tablet e Smartphone grandi (max-width: 1024px) */
 
-  .container {
-    width: 150px;
-    height: 90px;
-  }
-
-  .overlapping-containers {
-    top: -60px; 
-    gap: 10vw;
-  }
-
-  #p_87 {
-    color: white;
-    font-size: clamp(18px, 5vw, 28px); /* Minimo 24px, massimo 48px, adattandosi nel mezzo */
-    text-align: center;
-    margin-top: 25px;
-  }
-
-}
-
-
-@media (max-width: 768px) {/* Tablet piccoli e Smartphone grandi (max-width: 768px) */
-
-  .container {
-    width: 150px;
-    height: 80px;
-  }
-
-  .overlapping-containers {
-    top: -35px; 
-    gap: 10vw;
-  }
-
-  #p_87 {
-    color: white;
-    font-size: clamp(18px, 5vw, 28px); /* Minimo 24px, massimo 48px, adattandosi nel mezzo */
-    text-align: center;
-    margin-top: 25px;
-  }
-
-}
-
-
-@media (max-width: 480px) { /* Smartphone medi e piccoli (max-width: 480px) */
-
-  .container {
-    width: 80px;
-    height: 50px;
-  }
-
-  .overlapping-containers {
-    top: -35px; 
-    gap: 10vw;
-  }
-
-  
-  #p_87 {
-    color: white;
-    font-size: clamp(18px, 1vw, 28px); /* Minimo 24px, massimo 48px, adattandosi nel mezzo */
-    text-align: center;
-    margin-top: 15px;
-  }
-}
-
-
-@media (max-width: 375px) { /* Smartphone molto piccoli (max-width: 375px) */
-
-  .container {
-    width: 80px;
-    height: 50px;
-  }
-
-  .overlapping-containers {
-    top: -35px; 
-    gap: 8vw;
-  }
-
-  #p_87 {
-    color: white;
-    font-size: clamp(18px, 1vw, 28px);
-    text-align: center;
-    margin-top: 15px;
-  }
-
-}
 
 /*=======================================FOOTER===========================================*/
 /* Stile generale per il footer */
@@ -707,24 +495,289 @@ footer {
   color: white;
 }
 
-/* Media Query per Tablet */
-@media (max-width: 1024px) {
+
+/*---MEDIA QUIERI---*/
+@media (max-width: 1000px) { /* Tablet e Smartphone grandi (max-width: 1024px) */
+
+
+  /*---Menu hamburger*/
+  .hamburger div {
+    width: 50px;
+    height: 5px;
+ 
+}
+
+  /*---CHI SONO---*/
+  .con_header_7_0 {
+    padding: 10px; 
+    margin: 0px;
+  }
+
+
+  
+  /*---CONTATTI---*/
+  .container {
+    width: 150px;
+    height: 90px;
+  }
+
+  .overlapping-containers {
+    top: -60px; 
+    gap: 10vw;
+  }
+
+  #p_87 {
+    color: white;
+    font-size: clamp(18px, 5vw, 28px); /* Minimo 24px, massimo 48px, adattandosi nel mezzo */
+    text-align: center;
+    margin-top: 25px;
+  }
+
+
+  /*---FOOTER---*/
   .footer-content {
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
   }
   .socials {
-      margin-bottom: 10px;
+    margin-bottom: 10px;
   }
 }
 
-/* Media Query per Cellulari */
-@media (max-width: 768px) {
+
+@media (max-width: 768px) {/* Tablet piccoli e Smartphone grandi (max-width: 768px) */
+
+      /*---Menu hamburger*/
+      .hamburger div {
+        width: 50px;
+        height: 5px;
+      }
+
+  /*---HOME---*/
+  .hamburger {
+    display: flex;
+  }
+  
+  .container_sec {
+    padding: 0px;
+  }
+  
+  .section_1 {
+    padding: 20px;
+    margin-top: 480px;
+  }
+  
+  #h1_sec{
+    font-size: 30px;
+  }
+  
+  #h2_sec{
+    font-size: 25px;
+  }
+  
+  #p_sec{
+    font-size: 17px;
+  }
+  
+  /*menu hamburger*/
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.3s ease-in-out;
+  }
+  
+   ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: -200px; /* Sposta il testo più in su */
+  }
+  
+  .menu ul li {
+    list-style: none;
+    margin: 15px 0;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem; /* Aumenta la dimensione del testo */
+  }
+  
+  .menu_active {
+    right: 0; 
+  }
+  
+  /* Animazione icona hamburger */
+  .hamburger_active div:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .hamburger_active div:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger_active div:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+
+   /*---CHI SONO---*/
+  .con_header_7_0 {
+    padding: 10px; 
+    margin: 0px;
+  }
+
+
+    /*---CONTATTI---*/
+    .container {
+      width: 150px;
+      height: 80px;
+    }
+  
+    .overlapping-containers {
+      top: -35px; 
+      gap: 10vw;
+    }
+  
+    #p_87 {
+      color: white;
+      font-size: clamp(18px, 5vw, 28px); /* Minimo 24px, massimo 48px, adattandosi nel mezzo */
+      text-align: center;
+      margin-top: 25px;
+    }
+
+
+    /*---PROGETTI---*/
+    .project {
+      width: 110px;
+      height: 80px;
+      margin: 20px 5px;
+    }
+  
+    #h2_76{
+      font-size: 30px;
+    }
+  
+    #a_145{
+      font-size: 20px;
+    }
+    
+    #a_146{
+      font-size: 20px;
+    }
+
+
+     /*---FOOTER---*/
   .socials a {
-      margin: 0 5px;
+    margin: 0 5px;
   }
   .footer-content {
-      text-align: center;
+    text-align: center;
   }
 }
+
+
+@media (max-width: 480px) { /* Smartphone medi e piccoli (max-width: 480px) */
+
+    /*---Menu hamburger*/
+    .hamburger div {
+      width: 40px;
+      height: 5px;
+    }
+
+
+   /*---CHI SONO---*/
+  .con_header_7_0 {
+    padding: 10px; 
+    margin: 0px;
+  }
+
+
+    /*---CONTATTI---*/
+    .container {
+      width: 80px;
+      height: 50px;
+    }
+  
+    .overlapping-containers {
+      top: -35px; 
+      gap: 10vw;
+    }
+  
+    #p_87 {
+      color: white;
+      font-size: clamp(18px, 1vw, 28px); 
+      text-align: center;
+      margin-top: 15px;
+    }
+}
+
+
+@media (max-width: 375px) { /* Smartphone molto piccoli (max-width: 375px) */
+
+
+    /*---Menu hamburger*/
+    .hamburger div {
+      width: 30px;
+      height: 5px;
+    }
+
+
+   /*---CHI SONO---*/
+  .con_header_7_0 {
+    padding: 10px; 
+    margin: 0px;
+  }
+
+
+
+    /*---CONTATTI---*/
+    .container {
+      width: 80px;
+      height: 50px;
+    }
+  
+    .overlapping-containers {
+      top: -35px; 
+      gap: 8vw;
+    }
+  
+    #p_87 {
+      color: white;
+      font-size: clamp(18px, 1vw, 28px);
+      text-align: center;
+      margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
