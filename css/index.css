@@ -150,7 +150,7 @@ hr {
   width: 100%;
   background-image: url("../img/logo_31.webp");
   background-size: cover;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-position: center;
   flex-direction: column;
   justify-content: center;
@@ -349,7 +349,6 @@ hr {
 
 /*==================================================CSS contatti=========================================*/
 .contact-section {
-  position: relative;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -358,7 +357,6 @@ hr {
 }
 
 .video-container {
-  position: relative;
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -477,8 +475,6 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
-  position: relative;
-  bottom: 0;
 }
 
 .footer-content {
@@ -500,18 +496,6 @@ footer {
 
 /*---MEDIA QUIERI---*/
 @media (max-width: 1024px) { /* Tablet e Smartphone grandi (max-width: 1024px) */
-  /*---HOME---*/
-  .header0_1 {
-    width: 100%;
-    background-image: url("../img/logo_31.webp");
-    background-size: cover;
-    background-position: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    color: white;
-  }
   /*---Menu hamburger*/
   .hamburger div {
     width: 50px;
@@ -547,18 +531,6 @@ footer {
   }
 }
 @media (max-width: 768px) { /* Tablet piccoli e Smartphone grandi (max-width: 768px) */
-  /*---HOME---*/
-  .header0_1 {
-    width: 100%;
-    background-image: url("../img/logo_31.webp");
-    background-size: cover;
-    background-position: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    color: white;
-  }
   /*---Menu hamburger*/
   .hamburger div {
     width: 50px;
@@ -665,18 +637,6 @@ footer {
   }
 }
 @media (max-width: 480px) { /* Smartphone medi e piccoli (max-width: 480px) */
-  /*---HOME---*/
-  .header0_1 {
-    width: 100%;
-    background-image: url("../img/logo_31.webp");
-    background-size: cover;
-    background-position: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    color: white;
-  }
   /*---Menu hamburger*/
   .hamburger div {
     width: 40px;
@@ -699,18 +659,6 @@ footer {
   }
 }
 @media (max-width: 375px) { /* Smartphone molto piccoli (max-width: 375px) */
-  /*---HOME---*/
-  .header0_1 {
-    width: 100%;
-    background-image: url("../img/logo_31.webp");
-    background-size: cover;
-    background-position: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    color: white;
-  }
   /*---Menu hamburger*/
   .hamburger div {
     width: 30px;
